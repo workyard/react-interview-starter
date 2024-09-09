@@ -1,0 +1,13 @@
+{
+  "extends": ["react-app", "eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error", "info"]
+      }
+    ],
+    "no-unused-vars": "warn"
+  }
+}
